@@ -19,11 +19,11 @@ import java.util.Scanner;
 
 public class PracticaJava3a {
 
-    private static final int BASE = 0; // declare constant ex
-    private static final String MSG1 = "Inserta un numero:";// declare constant msg
-    private static final String MSG2 = "El numero introducido es positivo";// declare constant msg
-    private static final String MSG3 = "El numero introducido es negativo";// declare constant msg
-    private static final String MSG4 = "El numero introducido es neutro";// declare constant msg
+    private static final int BASE = 0;
+    private static final String MSG1 = "Inserta un numero:";
+    private static final String MSG2 = "El numero introducido es positivo";
+    private static final String MSG3 = "El numero introducido es negativo";
+    private static final String MSG4 = "El numero introducido es neutro";
 
     public static void main(String[] args) {
         int num;
@@ -31,10 +31,10 @@ public class PracticaJava3a {
         System.out.println(MSG1);
         num = sc.nextInt();
         if (num != BASE) {
-            if (num >= BASE) {// condition
-                System.out.println(MSG2);// message
-            } else {// condition
-                System.out.println(MSG3);// message
+            if (num >= BASE) {
+                System.out.println(MSG2);
+            } else {
+                System.out.println(MSG3);
             }
         } else {
             System.out.println(MSG4);

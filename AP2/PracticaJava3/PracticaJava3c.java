@@ -32,10 +32,10 @@ public class PracticaJava3c {
         System.out.println(MSG1);
         num = sc.nextInt();
         if (num != 0) {
-            if (num > MIN && num < MAX) {// condition
-                System.out.println(MSG2);// message
-            } else {// condition
-                System.out.println(MSG3);// message
+            if (num > MIN && num < MAX) {
+                System.out.println(MSG2);
+            } else {
+                System.out.println(MSG3);
             }
         } else {
             System.out.println(MSG4);
